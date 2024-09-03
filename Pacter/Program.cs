@@ -7,10 +7,11 @@ public class Program
     public static void Main()
     {
         var host = new HostBuilder()
-            .ConfigureFunctionsWorkerDefaults() // Use this for .NET isolated worker
+            .ConfigureFunctionsWorkerDefaults()
             .ConfigureServices(services =>
             {
-                services.AddSingleton<GreetingRepository>(); // Register your repository
+                // Register the interface with its implementation
+                services.AddSingleton<IGreetingRepository, GreetingRepository>();
             })
             .Build();
 

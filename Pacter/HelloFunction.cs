@@ -9,7 +9,7 @@ public class HelloFunction
     private readonly ILogger _logger;
     private readonly IGreetingRepository _greetingRepository;
 
-    public HelloFunction(ILoggerFactory loggerFactory, GreetingRepository greetingRepository)
+    public HelloFunction(ILoggerFactory loggerFactory, IGreetingRepository greetingRepository)
     {
         _logger = loggerFactory.CreateLogger<HelloFunction>();
         _greetingRepository = greetingRepository;
