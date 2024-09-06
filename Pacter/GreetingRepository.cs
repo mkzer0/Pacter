@@ -50,6 +50,5 @@ namespace Pacter
             return _greetings;
         }
     }
-
-
+    
 }

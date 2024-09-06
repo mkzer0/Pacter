@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pacter", "Pacter\Pacter.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacterProviderTest", "PacterProviderTest\PacterProviderTest.csproj", "{30D28760-5BCF-4BD0-91AB-23EE87DC821E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacterConsumerTest", "PacterConsumerTest\PacterConsumerTest.csproj", "{B09D3895-0782-4F6F-8B62-E83A048277D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacterConsumer", "PacterConsumer\PacterConsumer.csproj", "{944F895E-37C5-4E78-B53D-DEC626E8C501}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{30D28760-5BCF-4BD0-91AB-23EE87DC821E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30D28760-5BCF-4BD0-91AB-23EE87DC821E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30D28760-5BCF-4BD0-91AB-23EE87DC821E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B09D3895-0782-4F6F-8B62-E83A048277D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B09D3895-0782-4F6F-8B62-E83A048277D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B09D3895-0782-4F6F-8B62-E83A048277D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B09D3895-0782-4F6F-8B62-E83A048277D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{944F895E-37C5-4E78-B53D-DEC626E8C501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{944F895E-37C5-4E78-B53D-DEC626E8C501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{944F895E-37C5-4E78-B53D-DEC626E8C501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{944F895E-37C5-4E78-B53D-DEC626E8C501}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

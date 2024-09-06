@@ -11,22 +11,22 @@
 
     <ItemGroup>
         <PackageReference Include="coverlet.collector" Version="6.0.0" />
-        <PackageReference Include="Microsoft.Azure.Functions.Worker" Version="1.7.0" />
+        <PackageReference Include="FluentAssertions" Version="6.12.0" />
+        <PackageReference Include="Microsoft.Extensions.Http" Version="3.0.3" />
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
-        <PackageReference Include="NUnit" Version="4.2.2" />
-        <PackageReference Include="NUnit3TestAdapter" Version="4.6.0" />
+        <PackageReference Include="Moq" Version="4.20.71" />
+        <PackageReference Include="NUnit" Version="3.14.0" />
+        <PackageReference Include="NUnit.Analyzers" Version="3.9.0" />
+        <PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
         <PackageReference Include="PactNet" Version="5.0.0-beta.2" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Pacter\Pacter.csproj" />
+        <Using Include="NUnit.Framework" />
     </ItemGroup>
 
     <ItemGroup>
-      <None Update="test.settings.json">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        <CopyToPublishDirectory>Never</CopyToPublishDirectory>
-      </None>
+      <ProjectReference Include="..\PacterConsumer\PacterConsumer.csproj" />
     </ItemGroup>
 
 </Project>
